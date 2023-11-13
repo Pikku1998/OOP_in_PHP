@@ -1,6 +1,6 @@
 <?php
 
-class User{
+class User1{
     public $name;
     public $age;
 
@@ -22,11 +22,12 @@ class User{
     }
 }
 
-$user1 = new User('Prakash', 25);
-echo $user1->sayHello();
+$User11 = new User1('Prakash', 25);
+echo $User11->sayHello();
 
-$user2 = new User('Eswar', 23);
-echo $user2->sayHello();
+$User12 = new User1('Eswar', 23);
+echo $User12->sayHello();
 
+?>
 
 

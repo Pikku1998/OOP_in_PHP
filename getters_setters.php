@@ -1,5 +1,5 @@
 <?php
-class User{
+class User2{
     private $name;
     private $age;
 
@@ -41,21 +41,21 @@ class User{
 
 }
 
-$user1 = new User('Prakash',25);
-echo $user1->getName().'<br>';
-echo $user1->getAge().'<br>';
+$User21 = new User2('Prakash',25);
+echo $User21->getName().'<br>';
+echo $User21->getAge().'<br>';
 
-$user1->setName('Eswar');
-$user1->setAge(23);
-echo $user1->getName().'<br>';
-echo $user1->getAge().'<br>';
+$User21->setName('Eswar');
+$User21->setAge(23);
+echo $User21->getName().'<br>';
+echo $User21->getAge().'<br>';
 
-echo $user1->__get('name');
-$user1->__set('name', 'Chandu');
+echo $User21->__get('name');
+$User21->__set('name', 'Chandu');
 echo '<br>';
-echo $user1->__get('name');
+echo $User21->__get('name');
 
-
+?>
 
 
 

@@ -22,6 +22,7 @@ $user2 = new User();
 $user2->name = 'Eswar';
 echo '<br>';
 echo $user2->sayHello();
+?>
 
 
 
